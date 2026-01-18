@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir /s /b)",
+      "mcp__ide__getDiagnostics",
+      "Bash(claude mcp add playwright npx @playwright/mcp@latest)",
+      "Bash(npx playwright install)",
+      "Bash(claude mcp add chakra-ui -- npx -y @anthropic-ai/claude-code-mcp)",
+      "Bash(claude mcp add:*)",
+      "Bash(claude mcp:*)",
+      "Bash(npm run dev:*)",
+      "mcp__playwright__browser_wait_for",
+      "Bash(timeout:*)",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_console_messages",
+      "mcp__playwright__browser_snapshot",
+      "mcp__playwright__browser_click",
+      "mcp__playwright__browser_take_screenshot"
+    ]
+  }
+}
